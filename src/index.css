@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248, 187, 238);
+  
+}
+.App{
+  height: 100%;
+  height: 100vh;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main_div{
+  display: flex;
+  justify-content: center;
+}
+
+figcaption{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #684504;
+  font-weight: normal;
+}
+.add_iteam input{
+  border-radius: 33px;
+  height: 3.7vh;
+  width: 250px;
+  padding-left: 10px;
+  border-color:  blue;
+  border-width: 3px;
+  font-size: 19px;
+  margin-bottom: 40px;
+  background-color: rgb(204, 245, 232);
+}
+.plus {
+  background-color: rgb(204, 245, 232);
+  border-radius: 20px;
+  height: 5vh;
+  width: 50px;
+  margin-left: 10px;
+  border-color: blue;
+  cursor: pointer;
+  border-width: 3px;
+}
+.plus:hover{
+  background-color: rgb(141, 228, 129);
+}
+.edit{
+  cursor: pointer;
+  background-color: rgb(204, 245, 232);
+  border-radius: 20px;
+  height: 5vh;
+  width: 50px;
+  margin-left: 10px;
+  border-color: blue;
+  border-width: 3px;
+}
+.edit:hover{
+  background-color: rgb(141, 228, 129);
+}
+.eachItems{
+  width: 300px;
+  height: 6vh;
+  padding: 0px 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.eachItems:hover{
+  background-color: rgb(98, 218, 248);
+}
+.eachItems h3{
+  margin-top: 8px;
+  padding-left: 8px;
+  float: left;
+  font-weight: 500;
+  color: rgb(255, 47, 127);
+}
+
+.btn{
+  cursor: pointer;
+  background-color: rgb(98, 218, 248);
+  color: rgb(11, 15, 15);
+  height: 5vh;
+  width: 150px;
+  font-size: medium;
+  border-radius: 20px;
+  margin-top: 20px;
+  border-color: violet;
+  border-width: 3px;
+  margin-bottom: 100px;
+}
+.btn:hover{
+  background-color: rgb(54, 182, 60);
+}
+.delet_btu{
+  font-size:x-large;
+  color: black;
+  cursor: pointer;
+  padding-right: 10px;
+  margin: 2px;
+}
+.edit_btu{
+  font-size:large;
+  color: black;
+  cursor: pointer;
+  padding-left: 10px;
+  margin: 2px;
+}
+img{
+  margin-top: 50px;
+  height: 10vh;
+  width: 200px;
+}
